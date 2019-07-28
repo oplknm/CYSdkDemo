@@ -1,0 +1,6 @@
+framework module Pods_CYSdkDemo_Tests {
+  umbrella header "Pods-CYSdkDemo_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

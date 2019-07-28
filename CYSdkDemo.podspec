@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'CYSdkDemo'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of CYSdkDemo.'
+  s.summary          = 'cysdk'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'sdk for develop'
 
   s.homepage         = 'https://github.com/oplknm/CYSdkDemo'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -30,8 +28,12 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'CYSdkDemo/Classes/**/*'
-  
+  s.source_files = 'CYSdkDemo/Classes/*'
+  #s.public_header_files = 'CYSdkDemo/Classes/**/*.h'
+  # s.frameworks = 'UIKit', 'MapKit'
+  # s.dependency 'AFNetworking', '~> 2.3'
+  #s.vendored_libraries = 'CYSdkDemo/Classes/**/*.a'
+  #s.library   = 'resolv'
   # s.resource_bundles = {
   #   'CYSdkDemo' => ['CYSdkDemo/Assets/*.png']
   # }

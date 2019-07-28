@@ -1,0 +1,16 @@
+PODS:
+  - CYSdkDemo (0.1.0)
+
+DEPENDENCIES:
+  - CYSdkDemo (from `../`)
+
+EXTERNAL SOURCES:
+  CYSdkDemo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CYSdkDemo: 2210f84c4b0dd65a363721de262146633a7893a8
+
+PODFILE CHECKSUM: fc4a38c7a0ade96e125bb94fe290cf9b6d036071
+
+COCOAPODS: 1.7.5

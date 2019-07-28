@@ -1,0 +1,6 @@
+framework module Pods_CYSdkDemo_Example {
+  umbrella header "Pods-CYSdkDemo_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

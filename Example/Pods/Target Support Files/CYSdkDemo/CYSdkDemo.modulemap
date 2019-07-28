@@ -1,0 +1,6 @@
+framework module CYSdkDemo {
+  umbrella header "CYSdkDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
